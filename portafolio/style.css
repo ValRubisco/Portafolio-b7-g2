@@ -2,4 +2,28 @@ body{
     background-color:rgba(121, 248, 225, 0.637);
 nav {background-color:lawngreen!important;}
 
+#presentacion{
+    min-height: 88vh;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#proyecto-1{
+    background-image: url('google.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.text-shadow-1{
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
+.bg-brand{
+    background-color: darkblue;
+}
+.text-brand{
+    color:blue
+}
+
+
 }
